@@ -8,3 +8,15 @@ To use this extension, just add `obfuscateEmail` as a filter next to any text-co
 E.g.
 
     {{ record.body|obfuscateEmail }}
+
+Obfuscates emails in the plain text:
+
+    test@test.com
+
+in anchors (mailto):
+
+    <a href="mailto:test@test.com">send email</a>
+
+in anchors (mailto and label):
+
+    <a href="mailto:test@test.com">test@test.com</a>
