@@ -10,6 +10,17 @@ use Bolt\Extension\SimpleExtension;
  */
 class EmailObfuscatorExtension extends SimpleExtension
 {
+
+    /**
+     * Pretty extension name
+     *
+     * @return string
+     */
+    public function getDisplayName()
+    {
+        return 'Twig Email Obfuscator';
+    }
+    
     /**
      * {@inheritdoc}
      */
