@@ -1,9 +1,9 @@
 <?php
 
-namespace Bolt\Extension\ZinitSolutionsGmbH\EmailObfuscator\Tests;
+namespace Bolt\Extension\TreoLabs\EmailObfuscator\Tests;
 
 use Bolt\Tests\BoltUnitTest;
-use Bolt\Extension\ZinitSolutionsGmbH\EmailObfuscator\EmailObfuscatorExtension;
+use Bolt\Extension\TreoLabs\EmailObfuscator\EmailObfuscatorExtension;
 
 /**
  * EmailObfuscatorTest testing class.

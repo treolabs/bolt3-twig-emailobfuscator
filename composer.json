@@ -1,5 +1,5 @@
 {
-    "name": "zinitsolutionsgmbh/bolt3-twig-emailobfuscator",
+    "name": "treolabs/bolt3-twig-emailobfuscator",
     "description": "Bolt CMS 3 Email obfuscator filter for twig",
     "type": "bolt-extension",
     "keywords": ["email", "obfuscate", "obfuscator"],
@@ -9,19 +9,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Zinit Solutions GmbH",
-            "homepage": "http://zinitsolutions.de"
+            "name": "TreoLabs GmbH",
+            "homepage": "https://treolabs.com"
         }
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\ZinitSolutionsGmbH\\EmailObfuscator\\": "src"
+            "Bolt\\Extension\\TreoLabs\\EmailObfuscator\\": "src"
         }
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\ZinitSolutionsGmbH\\EmailObfuscator\\EmailObfuscatorExtension"
+        "bolt-class": "Bolt\\Extension\\TreoLabs\\EmailObfuscator\\EmailObfuscatorExtension"
     }
 }

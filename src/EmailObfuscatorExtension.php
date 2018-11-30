@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\ZinitSolutionsGmbH\EmailObfuscator;
+namespace Bolt\Extension\TreoLabs\EmailObfuscator;
 
 use Bolt\Asset\File\JavaScript;
 use Bolt\Extension\SimpleExtension;
@@ -26,7 +26,7 @@ class EmailObfuscatorExtension extends SimpleExtension
      */
     protected function registerAssets()
     {
-        $asset = new JavaScript('/extensions/vendor/zinitsolutionsgmbh/bolt3-twig-emailobfuscator/EmailObfuscator.js');
+        $asset = new JavaScript('/extensions/vendor/treolabs/bolt3-twig-emailobfuscator/EmailObfuscator.js');
 
         return [
             $asset,
